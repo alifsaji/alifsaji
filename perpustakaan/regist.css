@@ -1,0 +1,110 @@
+body {
+	font-family: "Lucida Grande";
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.top-wrapper {
+	padding: 180px 0 100px 0;
+	background-image: url(file:///C:/Users/WINDOWS/Documents/perpustakaan/images/bg1.JPG);
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+}
+
+header {
+  height: 55px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.header-left {
+	float: left;
+	margin-left: 20px;
+}
+
+.header-left h1, h2 {
+	font-size: 20px;
+	margin-top: 12px;
+	display: inline-block;
+	color: #ddd;
+	font-weight: normal;
+}
+.header-left h1 {
+	margin-left: 20px;
+}
+
+.logo {
+	float: left;
+	line-height: 10px;
+	width: 22px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.regist-form {
+	font-size: 18px;
+}
+
+.regist-form p {
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 3px;
+}
+
+input, textarea {
+	width: 250px;
+}
+
+span {
+	margin-top: 15px;
+	width: 80px;
+}
+
+.submitb {
+  padding: 15px 40px;
+  background-color: #55acee;
+  cursor: pointer;
+  box-shadow: 0 7px #000040;
+}
+
+.submitb:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.submits {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.submits:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
